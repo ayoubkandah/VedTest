@@ -1,7 +1,7 @@
 const options = {
   transports: ['websocket'],
 };
-const socket = io('localhost:3030/', options); // emmit connection event to server
+const socket = io('https://test-123-a.herokuapp.com/', options); // emmit connection event to server
 let trigger = false;
 let room;
 let arr = []
